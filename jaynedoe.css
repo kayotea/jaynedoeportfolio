@@ -1,0 +1,154 @@
+/* stylesheet for jaynedoe.html */
+
+/*headerbar*/
+#header {
+    background-color: #f6f6f6;
+    width: 900px;
+    height: 40px;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+}
+h1{
+    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    vertical-align: middle;
+    margin: 0px;
+}
+p#headline{
+    right: 0px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 120%;
+    position: relative;
+    left: 380px;
+}
+/*
+.right {
+    text-align: right;
+}*/
+
+/*tags*/
+h2,h3{
+    background: linear-gradient(#b1b1b5, #878593, #b1b1b5);
+    vertical-align: top;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+p, a{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #242e3d;
+    margin: 10px;
+    text-align: justify;
+}
+p#about{
+    text-align: left;
+}
+
+/*content of blog*/
+
+/*profile and about me*/
+#wrapper {
+    background: radial-gradient(circle, #6f5964,#6f5964,#443139);
+    width: 900px;
+    height: 950px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.profile{
+    background-color: #c0c0c0;
+    width: 400px;
+    height: 263px;
+    display: inline-block;
+    margin: 0px auto; 
+    margin-right: 20px;
+    padding: 5px;
+    vertical-align: top;
+}
+img#profile{
+    width: 400px;
+    height: 270;
+}
+.about{
+    background: linear-gradient(to right, #fefefe, #dbccda);
+    width: 465px;
+    height: 273px;
+    display: inline-block;
+    margin: 0px auto; 
+    vertical-align: top;
+    padding: 0px;
+}
+
+/*portfolio projects*/
+#projects{
+    background-color: transparent;
+    margin-top: 20px;
+    width: 900px;
+    height: 650px;
+}
+.column{
+    background-color: lightblue;
+    background: linear-gradient(to right, #fefefe, #dbccda);
+    width: 284px;
+    height: 650px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+#column{
+    margin-right: 0px;
+}
+img.picture{
+    width:284px;
+}
+.button-holder{
+    margin-bottom: 10px;
+}
+img.button{
+    width: 43px;
+    height: 43px;
+    margin: 5px;
+}
+.center{
+    text-align: center;
+}
+.click{
+    display: inline-block;
+    background-color: #407d61;
+    border: 1px solid #1e4834;
+    border-radius: 10px;
+
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+
+    padding: 5px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    box-shadow: 5px 5px 5px #9c9b8c;
+}
+
+div#footer{
+    background-color: #fdfdfd;
+    height: 100px;
+    width: 940px;
+    margin: 0px auto;
+}
+.word{
+    display: inline-block;
+    margin: 0px;
+}
+.tinybutton{
+    height: 25px;
+    width:25px;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+}
